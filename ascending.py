@@ -1,4 +1,4 @@
- 
+ from time import sleep
 def sortedSentence(Sentence): 
 
 	words = Sentence.split(" ") 
@@ -19,5 +19,4 @@ print(sortedSentence(Sentence))
 
 Sentence = "" 
 print(sortedSentence(Sentence)) 
- 
-
+ sleep(10.0)
