@@ -17,9 +17,7 @@ Sentence = ""
 
 print(sortedSentence(Sentence)) 
 
-Sentence = "3
- 2 1"
- 
+Sentence = "" 
 print(sortedSentence(Sentence)) 
  
 
