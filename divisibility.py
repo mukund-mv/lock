@@ -3,22 +3,18 @@
 
 # Result function with N 
 def result(N): 
-	
-	# iterate from 0 to N 
+	 
 	for num in range(N): 
-		
-			# Short-circuit operator is used 
+		 
 			if num % 3 == 0 and num % 5 == 0: 
 				print(str(num) + " ", end = "") 
 				
 			else: 
 				pass
 
-# Driver code 
+ 
 if __name__ == "__main__": 
 	
-	# input goes here 
-	N = int(input('enter starting number to find prime number:')) 
-	
-	# Calling function 
+ 
+	N = int(input('enter ending number:')) 
 	result(N) 
